@@ -46,7 +46,7 @@ describe("block", () => {
     const data = "mine data";
     const minedBlock = Block.mineBlock({ lastBlock, data });
 
-    it("minedBlock instance of minedBlock ", () => {
+    it("minedBlock instance of Block ", () => {
       expect(minedBlock instanceof Block).toBe(true);
     });
 
